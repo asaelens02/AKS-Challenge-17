@@ -1,9 +1,9 @@
 ## About the project:
 
-This is a github jist to explain an email regex elements
+This is a github gist to explain an email regex elements
 
 ## Getting Started:
-To begin open the jist file
+To begin open the gist file
 
 ## Languages:
 
