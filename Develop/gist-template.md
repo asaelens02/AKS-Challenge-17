@@ -28,23 +28,33 @@ Anchors, like the name implies, are used to define or hold a position before, af
 
 ### Quantifiers
 
+Quantifiers specify a quantity of instances of a character, group or character class. For an email regex one would want to use a greedy quantifier such as "+" as it will match as many instances as possible. In the email regular expression: /^[A-Za-z0-9_!#$%&'*+\/=?`{|}~^.-]+ the regex will look for at least one of everything in the brackets. Once the regex gets to the @ it will stop searching. 
+
 
 ### OR Operator
 Not used for this regex
 
 ### Character Classes
 
+defines a set of characters to be matched. 
+
 ### Flags
 
+The flag is used to delimit the regular expression. It is used before and after the expression. 
+
 ### Grouping and Capturing
+In this specific email regex brackets are used to group the pieces of our expression together. The username is grouped  and then the email provider name is grouped. 
 
 ### Bracket Expressions
 
 Brackets allow a regex to match characters within a range. So within our email regex it is analyzing [a-z0-9_\.-] and is looking for any letter a-z and any number 0-9. 
 
 ### Greedy and Lazy Match
+Greedy matches such as + will try to match as many characters as possible whereas a Lazy match will try to match as few characters as possible. 
 
 ### Boundaries
+
+A word boundary,  is a position between \w and \W, or at the beginning or end of a string if it begins or ends  with a word character.
 
 ### Back-references
 
@@ -53,5 +63,6 @@ Brackets allow a regex to match characters within a range. So within our email r
 ## Author
 
 Ashley Saelens
+https://github.com/asaelens02/AKS-Challenge-17
 
 
